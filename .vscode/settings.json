@@ -6,7 +6,7 @@
     "source.addMissingImports": "explicit",
     "source.organizeImports": "explicit"
   },
-  "editor.indentSize": 2,
+  "editor.indentSize": 4,
   "prettier.tabWidth": 2,
   "prettier.useTabs": false,
   "prettier.semi": false,

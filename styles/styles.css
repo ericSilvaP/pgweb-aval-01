@@ -1,0 +1,84 @@
+:root {
+  --color-primary: #0975b3;
+  --color-primary-hover: #0b5a88;
+  --color-primary-dark: #052f47;
+  --color-primary-dark-hover: #0a3f5f;
+  --color-primary-light: #cce6f3;
+  --color-primary-light-hover: #b3d9ec;
+
+  --color-alt: #f6c52a;
+  --color-alt-hover: #d6aa20;
+  --color-alt-dark: #4a3b0a;
+  --color-alt-dark-hover: #6b560f;
+  --color-alt-light: #fdf1c7;
+  --color-alt-light-hover: #fbe69d;
+
+  --color-secondary: #e43337;
+  --color-secondary-hover: #c42b2f;
+  --color-secondary-dark: #3f0c0d;
+  --color-secondary-dark-hover: #651314;
+  --color-secondary-light: #f8cccc;
+  --color-secondary-light-hover: #f3a3a4;
+
+  --color-tertiary: #dde135;
+  --color-tertiary-hover: #c0c628;
+  --color-tertiary-dark: #3a3c0b;
+  --color-tertiary-dark-hover: #5a5d11;
+  --color-tertiary-light: #f6f8cc;
+  --color-tertiary-light-hover: #edf1a2;
+
+  --color-quaternary: #fff0c0;
+  --color-quaternary-hover: #ffe699;
+  --color-quaternary-dark: #3a331f;
+  --color-quaternary-dark-hover: #5a4f2b;
+  --color-quaternary-light: #fff8dc;
+  --color-quaternary-light-hover: #fff1aa;
+
+  --color-white: #fff;
+  --color-black: #000;
+
+  --color-dark-text: #3d3a38;
+
+  --color-gray-0: #f9f9f9;
+  --color-gray-1: #e0e0e0;
+  --color-gray-2: #c7c7c7;
+  --color-gray-3: #aeaeae;
+  --color-gray-4: #959595;
+  --color-gray-5: #7d7d7d;
+  --color-gray-6: #646464;
+  --color-gray-7: #4b4b4b;
+  --color-gray-8: #323232;
+  --color-gray-9: #191919;
+
+  --font-primary: 'Yanone Kaffeesatz', sans-serif;
+  --font-headings: 'Bebas Neue', serif;
+
+  --spacing-gutter-medium: 3rem;
+  --spacing-gutter-large: 4rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.7rem;
+  font-family: var(--font-primary);
+  background: var(--color-gray-1);
+  color: var(--color-dark-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-headings);
+}
