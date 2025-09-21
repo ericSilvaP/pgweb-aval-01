@@ -82,3 +82,47 @@ h5,
 h6 {
   font-family: var(--font-headings);
 }
+
+/* acitivies section */
+.schedules-container {
+  background-color: var(--color-primary);
+  padding: var(--spacing-gutter-medium) calc(var(--spacing-gutter-medium) / 2);
+}
+
+.schedule-title-container {
+  text-align: center;
+  color: var(--color-alt);
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+  font-size: 20pt;
+}
+
+.schedule-grid {
+  display: grid;
+  margin: auto;
+  max-width: 100rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: var(--spacing-gutter-large);
+}
+
+.schedule-activity {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background-color: var(--color-white);
+  padding: 2.5rem 1.5rem;
+  height: fit-content;
+  margin: auto 0;
+}
+
+.activity-title-container {
+  color: var(--color-primary);
+  letter-spacing: 0.1rem;
+  font-size: 11pt;
+}
+
+.time-local-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
