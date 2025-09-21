@@ -67,6 +67,38 @@ html {
   font-size: 62.5%;
 }
 
+.institutional-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 6rem;
+  background-color: var(--color-dark-text);
+  padding: 0rem 4rem;
+}
+
+.institutional-header .logo-uespi {
+  width: 5rem;
+  height: auto;
+}
+
+.institutional-header .nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.institutional-header .nav .links-sections {
+  text-decoration: none;
+  font-family: var(--font-headings);
+  color: var(--color-gray-0);
+  transition: transform 0.3s ease;
+}
+
+.institutional-header .nav .links-sections:hover {
+  color: var(--color-gray-3);
+  text-decoration: underline;
+}
+
 body {
   font-size: 1.7rem;
   font-family: var(--font-primary);
