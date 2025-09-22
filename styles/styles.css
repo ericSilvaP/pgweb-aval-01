@@ -252,3 +252,25 @@ h6 {
   background-color: var(--color-white);
   color: var(--color-alt);
 }
+
+@media (min-width: 720px) {
+  /* form section */
+  .schedule-grid {
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  }
+
+  .form-description-container {
+    flex: 2;
+    text-align: left;
+  }
+
+  .form-container {
+    flex: 3;
+  }
+}
+
+@media (min-width: 880px) {
+  .registration-form-container {
+    padding: 5rem 8rem;
+  }
+}
