@@ -67,6 +67,24 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-size: 1.7rem;
+  font-family: var(--font-primary);
+  background: var(--color-gray-1);
+  color: var(--color-dark-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-headings);
+}
+
+/* Institutional-header */
+
 .institutional-header {
   display: flex;
   align-items: center;
@@ -140,20 +158,8 @@ html {
   height: auto;
 }
 
-body {
-  font-size: 1.7rem;
-  font-family: var(--font-primary);
-  background: var(--color-gray-1);
-  color: var(--color-dark-text);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-headings);
+.btn-menu {
+  display: none;
 }
 
 /* acitivies section */
@@ -200,6 +206,73 @@ h6 {
   gap: 0.5rem;
 }
 
+/* footer-section */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: var(--color-dark-text);
+  color: var(--color-gray-0);
+}
+
+.information-contacts {
+  display: flex;
+  padding: 1rem;
+}
+
+.information-contacts-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-right: 8rem;
+}
+
+.information-contacts-box ul {
+  list-style: none;
+}
+
+.information-contacts-box ul li p {
+  padding: 0.5rem 0rem;
+}
+
+.information-contacts-box ul li a {
+  text-decoration: none;
+  color: var(--color-gray-0);
+}
+
+.information-contacts-box ul li p a:hover {
+  color: var(--color-gray-3);
+}
+
+.information-contacts-box ul li address strong {
+  font-style: normal;
+}
+
+.icon-social-network {
+  margin-right: 0.5rem;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.line {
+  width: 80%;
+  border-bottom: 1px solid var(--color-gray-0);
+}
+
+.copy-data {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
 @media (max-width: 600px) {
   .institutional-header {
     padding: 0rem 2rem;
@@ -209,8 +282,13 @@ h6 {
     display: none;
   }
   .icon-menu {
-    display: inline;
+    display: block;
   }
+
+  .btn-menu {
+    display: block;
+  }
+
   #menu-toggle:checked ~ .nav-mobile {
     display: flex;
   }
