@@ -142,8 +142,77 @@
       <section>
         <!-- “Palestrantes” -->
       </section>
-      <section>
+      <section class="registration-form-container">
         <!-- “Formulário de Inscrição” -->
+        <div class="form-description-container">
+          <div class="out-form-title-container">
+            <h2>Garanta sua Vaga!</h2>
+          </div>
+          <div class="form-description">
+            Não perca a chance de transformar sua indecisão em um plano de
+            carreira. Inscreva-se agora para a Feira de Profissões da Uespi e dê
+            o primeiro passo em direção ao seu futuro. As vagas são limitadas!
+            Preencha o formulário abaixo e garanta sua presença neste evento que
+            pode mudar sua vida.
+          </div>
+        </div>
+        <div class="form-container">
+          <p class="title-in-form">Inscreva-se</p>
+          <form action="" class="registration-form" id="registration-form">
+            <div class="name form-field-container">
+              <label for="name">Nome Completo:</label>
+              <input type="text" id="name" autocomplete="off" />
+            </div>
+            <div class="email form-field-container">
+              <label for="email">Email:</label>
+              <input type="text" id="email" autocomplete="off" />
+            </div>
+            <div class="interest-area form-field-container">
+              <label for="interest-area-opts">Área de Interesse:</label>
+              <select name="" id="interest-area-opts">
+                <option value="0">--- Selecione uma opção ---</option>
+                <option value="1">Tecnologia</option>
+                <option value="2">Sustentabilidade</option>
+                <option value="3">Saúde</option>
+                <option value="4">Ciências Sociais</option>
+              </select>
+            </div>
+            <div class="participation-type form-field-container">
+              <div>Tipo de Participação:</div>
+              <div class="all-participations-type-container">
+                <div class="participation-type-container">
+                  <label for="solo">Individual</label>
+                  <input type="checkbox" name="" id="solo" />
+                </div>
+                <div class="participation-type-container">
+                  <label for="group">Grupo (Escola)</label>
+                  <input type="checkbox" name="" id="group" />
+                </div>
+                <div class="participation-type-container">
+                  <label for="educators">Educadores</label>
+                  <input type="checkbox" name="" id="educators" />
+                </div>
+                <div class="participation-type-container">
+                  <label for="virtual">Virtual</label>
+                  <input type="checkbox" name="" id="virtual" />
+                </div>
+              </div>
+            </div>
+            <div class="graduation-text form-field-container">
+              <label for="graduation-textarea"
+                >Qual curso de graduação mais te interessa no momento? E
+                porque?</label
+              >
+              <textarea name="" id="graduation-textarea"></textarea>
+            </div>
+            <div class="form-buttons-container">
+              <button class="clear-button form-button">Limpar</button>
+              <button type="submit" class="submit-button form-button">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
     <footer>
