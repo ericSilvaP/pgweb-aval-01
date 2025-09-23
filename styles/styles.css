@@ -158,10 +158,6 @@ h6 {
   height: auto;
 }
 
-.btn-menu {
-  display: none;
-}
-
 /* acitivies section */
 .schedules-container {
   background-color: var(--color-primary);
@@ -332,6 +328,73 @@ h6 {
   color: var(--color-alt);
 }
 
+/* footer-section */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: var(--color-dark-text);
+  color: var(--color-gray-0);
+}
+
+.information-contacts {
+  display: flex;
+  padding: 2rem;
+  gap: 8rem;
+}
+
+.information-contacts-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.information-contacts-box ul {
+  list-style: none;
+}
+
+.information-contacts-box ul li p {
+  padding: 0.5rem 0rem;
+}
+
+.information-contacts-box ul li a {
+  text-decoration: none;
+  color: var(--color-gray-0);
+}
+
+.information-contacts-box ul li p a:hover {
+  color: var(--color-gray-3);
+}
+
+.information-contacts-box ul li address strong {
+  font-style: normal;
+}
+
+.icon-social-network {
+  margin-right: 0.5rem;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.line {
+  width: 80%;
+  border-bottom: 1px solid var(--color-gray-0);
+}
+
+.copy-data {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
 @media (min-width: 720px) {
   /* form section */
   .schedule-grid {
@@ -351,5 +414,29 @@ h6 {
 @media (min-width: 880px) {
   .registration-form-container {
     padding: 5rem 8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  /* institutional-header  */
+  .institutional-header {
+    padding: 0rem 2rem;
+  }
+
+  .institutional-header .nav {
+    display: none;
+  }
+  .icon-menu {
+    display: block;
+  }
+
+  nav:target {
+    display: flex;
+  }
+
+  /* footer */
+  .information-contacts {
+    flex-direction: column;
+    gap: 4rem;
   }
 }

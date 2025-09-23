@@ -21,32 +21,44 @@
       />
 
       <nav aria-label="Navegação de seções " class="nav">
-        <a class="links-sections" href="#">SOBRE</a>
-        <a class="links-sections" href="#">PROGRAMAÇÃO</a>
-        <a class="links-sections" href="#">PALESTRANTES</a>
-        <a class="links-sections" href="#">INSCRIÇÃO</a>
+        <a class="links-sections" href="#About">SOBRE</a>
+        <a class="links-sections" href="#schedule">PROGRAMAÇÃO</a>
+        <a class="links-sections" href="#speakers">PALESTRANTES</a>
+        <a class="links-sections" href="#inscription">INSCRIÇÃO</a>
       </nav>
 
-      <input type="checkbox" id="menu-toggle" hidden />
-      <label for="menu-toggle" class="btn-menu">
-        <img class="icon-menu" src="./img/menu-icon.svg" alt="menu" />
-      </label>
-
-      <nav aria-label="Navegação de seções " class="nav-mobile">
+      <!-- <nav aria-label="Navegação de seções " class="nav-mobile">
         <label for="menu-toggle" class="icon-close-box">
           <img class="icon-close" src="./img/close-icon.svg" alt="close" />
         </label>
-        <a class="links-mobile" href="#">SOBRE</a>
-        <a class="links-mobile" href="#">PROGRAMAÇÃO</a>
-        <a class="links-mobile" href="#">PALESTRANTES</a>
-        <a class="links-mobile" href="#">INSCRIÇÃO</a>
+        <a class="links-mobile" href="#About">SOBRE</a>
+        <a class="links-mobile" href="#schedule">PROGRAMAÇÃO</a>
+        <a class="links-mobile" href="#speakers">PALESTRANTES</a>
+        <a class="links-mobile" href="#inscription">INSCRIÇÃO</a>
+      </nav> -->
+
+      <a href="#menu" class="menu-burger"
+        ><img class="icon-menu" src="./img/menu-icon.svg" alt="menu"
+      /></a>
+
+      <nav id="menu" class="nav-mobile">
+        <div class="icon-close-box">
+          <a href="#"
+            ><img class="icon-close" src="./img/close-icon.svg" alt="close"
+          /></a>
+        </div>
+        <a class="links-mobile" href="#about">Sobre</a>
+        <a class="links-mobile" href="#schedule">Programação</a>
+        <a class="links-mobile" href="#speakers">Palestrantes</a>
+        <a class="links-mobile" href="#inscription">Inscrição</a>
+        <!-- link vazio volta ao topo e fecha -->
       </nav>
     </header>
     <main>
-      <section>
+      <section id="About">
         <!-- “Sobre o Evento” -->
       </section>
-      <section class="schedules-container">
+      <section id="schedule" class="schedules-container">
         <!-- “Programação” -->
         <div class="schedule-title-container">
           <h2>Programação</h2>
@@ -165,10 +177,10 @@
           </div>
         </div>
       </section>
-      <section>
+      <section id="speakers">
         <!-- “Palestrantes” -->
       </section>
-      <section class="registration-form-container">
+      <section id="inscription" class="registration-form-container">
         <!-- “Formulário de Inscrição” -->
         <div class="form-description-container">
           <div class="out-form-title-container">
