@@ -82,3 +82,49 @@ h5,
 h6 {
   font-family: var(--font-headings);
 }
+
+.about-event{
+  background-color: #fff;
+  padding: 10px;
+}
+
+.about-event-title {
+  color: #000;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-align: left;
+  font-size: 2.8rem;
+}
+
+.about-event-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-event-paragraph-container {
+  font-size: 2.4rem;
+  padding: 10px;
+  text-align: left;
+}
+
+.about-event-img-container img{
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1024px){
+  .about-event-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-event-paragraph-container {
+    flex-basis: 50%;
+    padding-right: 10px;
+  }
+
+  .about-event-img-container {
+    flex-basis: 50%;
+  }
+}
