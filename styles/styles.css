@@ -158,6 +158,10 @@ h6 {
   height: auto;
 }
 
+.menu-burger {
+  display: none;
+}
+
 /* acitivies section */
 .schedules-container {
   background-color: var(--color-primary);
@@ -425,6 +429,10 @@ h6 {
 
   .institutional-header .nav {
     display: none;
+  }
+
+  .menu-burger {
+    display: block;
   }
   .icon-menu {
     display: block;
