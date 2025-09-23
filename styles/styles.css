@@ -219,14 +219,14 @@ h6 {
 
 .information-contacts {
   display: flex;
-  padding: 1rem;
+  padding: 2rem;
+  gap: 8rem;
 }
 
 .information-contacts-box {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding-right: 8rem;
 }
 
 .information-contacts-box ul {
@@ -291,5 +291,10 @@ h6 {
 
   #menu-toggle:checked ~ .nav-mobile {
     display: flex;
+  }
+
+  .information-contacts {
+    flex-direction: column;
+    gap: 4rem;
   }
 }
