@@ -35,6 +35,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -134,15 +135,6 @@ h6 {
 /* about section */
 .about-event-section {
   background-color: #fff;
-  padding: 10px;
-}
-
-.about-event-title {
-  color: #000;
-  padding-top: 10px;
-  padding-left: 10px;
-  text-align: left;
-  font-size: 2.8rem;
 }
 
 .about-event-container {
@@ -151,10 +143,24 @@ h6 {
   align-items: center;
 }
 
+.about-event-title {
+  color: #000;
+  padding-top: var(--spacing-gutter-large);
+  padding-left: var(--spacing-gutter-large);
+  text-align: left;
+  font-size: 2.8rem;
+}
+
 .about-event-paragraph-container {
   font-size: 2.4rem;
-  padding: 10px;
+  padding: var(--spacing-gutter-large);
   text-align: left;
+}
+
+.about-event-img-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .about-event-img-container img {
