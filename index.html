@@ -10,29 +10,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/media-query.css" />
     <title>Feira de Profissões UESPI</title>
   </head>
   <body>
-    <header>
-      <h2></h2>
-      <!-- Cabeçalho institucional -->
-    </header>
-    <main>
-      <section class="about-event-section">
-        <!-- “Sobre o Evento” -->
-        <Div class="about-event-title"> <!--Titulo do evento-->
-          <h1>Sobre o evento</h1>
-        </Div>
-        <div class="about-event-container"> <!--Container que contem o paragrafo e a imagem-->
-          <div class="about-event-paragraph-container"> <!--Controla o paragrafo-->
-            <p>A universidade Estadual do Piauí (UESPI), apresenta a Feira de Profissões, um evento criado para guiar você, estudante do Ensino Médio, em uma das escolhas mais importantes da sua vida. Descubra diversas áreas do conhecimento em um ambiente interativo e dinâmico, onde você terá oportunidade de explorar cursos e tirar dúvidas diretamente com quem entende do assunto. Prepare-se para uma experiência que vai além das salas de aula, mostrando as infinitas possibilidades que esperam você no futuro.</p>
-            <p>Em nossos estandes, você vai encontrar professores e universitários prontos para compartilhar suas experiências e apresentar a rotina de cada profissão. Participe de palestras e workshops práticos para ter uma verdadeira experiência do dia a dia acadêmico, desde a pesquisa cientéfica até a criação de projetos inovadores. É a chance perfeita para visualizar seu futuro e entender o mercado de trabalho, interagindo com quem já está no caminho que você deseja seguir.</p>
-            <p>Marque a data: a Feira de Profissões da Uespi é o seu portal para o futuro. Venha se inspirar, descobrir novas vocações e dar o primeiro passo rumo a uma carreira de sucesso. Esperamos por você para explorar um mundo de oportunidades e transformar sua paixão em profissão.</p>
-          </div>
-          <div class="about-event-img-container"> <!--Controla a imagem-->
-            <img src="img/professions.png" alt="Imagem representando várias profissões" />
-          </div>
-        </div>  
     <header class="institutional-header">
       <img
         class="logo-uespi"
@@ -41,7 +22,7 @@
       />
 
       <nav aria-label="Navegação de seções " class="nav">
-        <a class="links-sections" href="#About">SOBRE</a>
+        <a class="links-sections" href="#about">SOBRE</a>
         <a class="links-sections" href="#schedule">PROGRAMAÇÃO</a>
         <a class="links-sections" href="#speakers">PALESTRANTES</a>
         <a class="links-sections" href="#inscription">INSCRIÇÃO</a>
@@ -75,8 +56,52 @@
       </nav>
     </header>
     <main>
-      <section id="About">
+      <section class="about-event-section" id="about">
         <!-- “Sobre o Evento” -->
+        <div class="about-event-title">
+          <!--Titulo do evento-->
+          <h2>Sobre o evento</h2>
+        </div>
+        <div class="about-event-container">
+          <!--Container que contem o paragrafo e a imagem-->
+          <div class="about-event-paragraph-container">
+            <!--Controla o paragrafo-->
+            <p>
+              A universidade Estadual do Piauí (UESPI), apresenta a Feira de
+              Profissões, um evento criado para guiar você, estudante do Ensino
+              Médio, em uma das escolhas mais importantes da sua vida. Descubra
+              diversas áreas do conhecimento em um ambiente interativo e
+              dinâmico, onde você terá oportunidade de explorar cursos e tirar
+              dúvidas diretamente com quem entende do assunto. Prepare-se para
+              uma experiência que vai além das salas de aula, mostrando as
+              infinitas possibilidades que esperam você no futuro.
+            </p>
+            <p>
+              Em nossos estandes, você vai encontrar professores e
+              universitários prontos para compartilhar suas experiências e
+              apresentar a rotina de cada profissão. Participe de palestras e
+              workshops práticos para ter uma verdadeira experiência do dia a
+              dia acadêmico, desde a pesquisa cientéfica até a criação de
+              projetos inovadores. É a chance perfeita para visualizar seu
+              futuro e entender o mercado de trabalho, interagindo com quem já
+              está no caminho que você deseja seguir.
+            </p>
+            <p>
+              Marque a data: a Feira de Profissões da Uespi é o seu portal para
+              o futuro. Venha se inspirar, descobrir novas vocações e dar o
+              primeiro passo rumo a uma carreira de sucesso. Esperamos por você
+              para explorar um mundo de oportunidades e transformar sua paixão
+              em profissão.
+            </p>
+          </div>
+          <div class="about-event-img-container">
+            <!--Controla a imagem-->
+            <img
+              src="img/professions.png"
+              alt="Imagem representando várias profissões"
+            />
+          </div>
+        </div>
       </section>
       <section id="schedule" class="schedules-container">
         <!-- “Programação” -->
@@ -86,7 +111,7 @@
         <div class="schedule-grid">
           <div class="schedule-activity">
             <div class="activity-img">
-              <img src="img/act-01-icon.svg" alt="worker" />
+              <img src="img/act-01-icon.svg" alt="trabalhador" />
             </div>
             <div class="activity-title-container">
               <h3>Palestra: "Decifrando o Futuro: As Carreiras do Amanhã"</h3>
@@ -102,7 +127,7 @@
           </div>
           <div class="schedule-activity">
             <div class="activity-img">
-              <img src="img/activity-02-icon.svg" alt="" />
+              <img src="img/activity-02-icon.svg" alt="mao-segurando-globo" />
             </div>
             <div class="activity-title-container">
               <h3>
@@ -121,7 +146,7 @@
           </div>
           <div class="schedule-activity">
             <div class="activity-img">
-              <img src="img/activity-03-icon.svg" alt="" />
+              <img src="img/activity-03-icon.svg" alt="engrenagens" />
             </div>
             <div class="activity-title-container">
               <h3>
@@ -140,7 +165,7 @@
           </div>
           <div class="schedule-activity">
             <div class="activity-img">
-              <img src="img/activity-04-icon.svg" alt="" />
+              <img src="img/activity-04-icon.svg" alt="computador" />
             </div>
             <div class="activity-title-container">
               <h3>
@@ -159,7 +184,7 @@
           </div>
           <div class="schedule-activity">
             <div class="activity-img">
-              <img src="img/activity-05-icon.svg" alt="" />
+              <img src="img/activity-05-icon.svg" alt="mao-segurando-coracao" />
             </div>
             <div class="activity-title-container">
               <h3>
@@ -178,7 +203,7 @@
           </div>
           <div class="schedule-activity">
             <div class="activity-img">
-              <img src="img/activity-06-icon.svg" alt="" />
+              <img src="img/activity-06-icon.svg" alt="equipe" />
             </div>
             <div class="activity-title-container">
               <h3>
@@ -197,55 +222,99 @@
           </div>
         </div>
       </section>
+      <section id="speakers" class="speakers-section">
         <!-- “Palestrantes” -->
-         <div class="speakers-title"><h1>Palestrantes</h1> <!-- Titulo da pagina -->
-         </div>
-         <div class="speakers-subtitle"><p>Com diversos convidados para a propagação de conhecimentos!</p> <!-- Subtitulo da pagina -->
-         </div>
-         <div class="speakers-container"> <!-- Container que controla os cards dos palestrantes -->
-          <div class="speaker-card"> <!-- Card do palestrante 1 -->
+        <div class="speakers-title">
+          <h2>Palestrantes</h2>
+          <!-- Titulo da pagina -->
+        </div>
+        <div class="speakers-subtitle">
+          <p>Com diversos convidados para a propagação de conhecimentos!</p>
+          <!-- Subtitulo da pagina -->
+        </div>
+        <div class="speakers-container">
+          <!-- Container que controla os cards dos palestrantes -->
+          <div class="speaker-card">
+            <!-- Card do palestrante 1 -->
             <div class="speaker-img">
               <img src="img/speaker-one.jpg" alt="Foto do palestrante 1" />
             </div>
-            <div class="speaker-info">  
+            <div class="speaker-info">
               <h3>Ana Clara Costa</h3>
-              <p><strong>Área de Atuação:</strong> Marketing Digital e Estratégia de Conteúdo</p>
-              <p><strong>Palestra:</strong> "Mão na Massa: Criando sua Primeira Campanha de Marketing Digital"</p>
+              <p>
+                <strong>Área de Atuação:</strong> Marketing Digital e Estratégia
+                de Conteúdo
+              </p>
+              <p>
+                <strong>Palestra:</strong> "Mão na Massa: Criando sua Primeira
+                Campanha de Marketing Digital"
+              </p>
               <div class="speaker-social-media-container">
-                <div class="speaker-social-media"><img src="img/linkedin_icon.webp" alt="Icone do LinkedIn" /><p>anaclaracosta-marketing</p></div>
-                <div class="speaker-social-media"><img src="img/Instagram_icon.png" alt="Icone do Instagram" /><p>anaclaracosta-marketing</p></div>
+                <div class="speaker-social-media">
+                  <img src="img/linkedin_icon.webp" alt="Icone do LinkedIn" />
+                  <p>anaclaracosta-marketing</p>
+                </div>
+                <div class="speaker-social-media">
+                  <img src="img/Instagram_icon.png" alt="Icone do Instagram" />
+                  <p>anaclaracosta-marketing</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="speaker-card"> <!-- Card do palestrante 2 -->
-            <div class="speaker-img"> 
+          <div class="speaker-card">
+            <!-- Card do palestrante 2 -->
+            <div class="speaker-img">
               <img src="img/speaker-two.jpg" alt="Foto do palestrante 2" />
             </div>
-            <div class="speaker-info"> 
+            <div class="speaker-info">
               <h3>Lucas Almeida</h3>
-              <p><strong>Área de Atuação:</strong> Tecnologia e Desenvolvimento de Software</p>
-              <p><strong>Palestra:</strong> "De Código a Carreira: Os Primeiros Passos na Área de TI" </p>
+              <p>
+                <strong>Área de Atuação:</strong> Tecnologia e Desenvolvimento
+                de Software
+              </p>
+              <p>
+                <strong>Palestra:</strong> "De Código a Carreira: Os Primeiros
+                Passos na Área de TI"
+              </p>
               <div class="speaker-social-media-container">
-                <div class="speaker-social-media"><img src="img/linkedin_icon.webp" alt="Icone do LinkedIn" /><p>lucasalmeidadev</p></div>
-                <div class="speaker-social-media"><img src="img/Instagram_icon.png" alt="Icone do Instagram" /><p>lucas.almeida.tech</p></div>
+                <div class="speaker-social-media">
+                  <img src="img/linkedin_icon.webp" alt="Icone do LinkedIn" />
+                  <p>lucasalmeidadev</p>
+                </div>
+                <div class="speaker-social-media">
+                  <img src="img/Instagram_icon.png" alt="Icone do Instagram" />
+                  <p>lucas.almeida.tech</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="speaker-card"> <!-- Card do palestrante 3 -->
+          <div class="speaker-card">
+            <!-- Card do palestrante 3 -->
             <div class="speaker-img">
               <img src="img/speaker-three.png" alt="Foto do palestrante 3" />
             </div>
             <div class="speaker-info">
               <h3>Dra. Isabella Santos</h3>
-              <p><strong>Área de Atuação:</strong> Medicina e Pesquisa Científica</p>
-              <p><strong>Palestra:</strong> "O Poder da Saúde: Desafios e Oportunidades na Área da Medicina"</p>
+              <p>
+                <strong>Área de Atuação:</strong> Medicina e Pesquisa Científica
+              </p>
+              <p>
+                <strong>Palestra:</strong> "O Poder da Saúde: Desafios e
+                Oportunidades na Área da Medicina"
+              </p>
               <div class="speaker-social-media-container">
-                <div class="speaker-social-media"><img src="img/linkedin_icon.webp" alt="Icone do LinkedIn" /><p>dra-isabella-santos</  p></div>
-                <div class="speaker-social-media"><img src="img/Instagram_icon.png" alt="Icone do Instagram" /><p>dra.isabellasantos</p></div>
+                <div class="speaker-social-media">
+                  <img src="img/linkedin_icon.webp" alt="Icone do LinkedIn" />
+                  <p>dra-isabella-santos</p>
+                </div>
+                <div class="speaker-social-media">
+                  <img src="img/Instagram_icon.png" alt="Icone do Instagram" />
+                  <p>dra.isabellasantos</p>
+                </div>
               </div>
             </div>
           </div>
-         </div>
+        </div>
       </section>
       <section id="inscription" class="registration-form-container">
         <!-- “Formulário de Inscrição” -->
@@ -255,7 +324,7 @@
           </div>
           <div class="form-description">
             Não perca a chance de transformar sua indecisão em um plano de
-            carreira. Inscreva-se agora para a Feira de Profissões da Uespi e dê
+            carreira. Inscreva-se agora para a Feira de Profissões da UESPI e dê
             o primeiro passo em direção ao seu futuro. As vagas são limitadas!
             Preencha o formulário abaixo e garanta sua presença neste evento que
             pode mudar sua vida.
