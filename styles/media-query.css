@@ -42,27 +42,18 @@
     display: flex;
   }
 
+  .speaker-social-media-container p {
+    font-size: 1.1rem;
+  }
+
+  .speaker-social-media {
+    padding: 0.5rem 1rem;
+  }
+
   /* footer */
   .information-contacts {
     flex-direction: column;
     gap: 4rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  /* about section */
-  .about-event-container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .about-event-paragraph-container {
-    flex-basis: 50%;
-    padding-right: 10px;
-  }
-
-  .about-event-img-container {
-    flex-basis: 50%;
   }
 }
 
@@ -88,8 +79,19 @@
     flex-basis: 30%;
   }
 
-  .speaker-social-media-container {
-    flex-direction: column;
+  .about-event-container {
+    flex-direction: row;
     justify-content: space-between;
+  }
+
+  .about-event-paragraph-container {
+    flex-basis: 50%;
+    padding-right: 10px;
+  }
+
+  .about-event-img-container {
+    flex-basis: 50%;
+    align-self: flex-end;
+    padding-right: var(--spacing-gutter-large);
   }
 }
