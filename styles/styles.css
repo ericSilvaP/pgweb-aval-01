@@ -242,11 +242,21 @@ h6 {
   border: #0975b3 2px solid;
   border-radius: 0.5rem;
   padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+.speaker-social-media:hover {
+  background-color: var(--color-alt);
 }
 
 .speaker-social-media-container img {
   width: 1.25rem;
   height: auto;
+}
+
+.speaker-social-media-container a {
+  text-decoration: none;
+  color: var(--color-dark-text);
 }
 
 /* acitivies section */
