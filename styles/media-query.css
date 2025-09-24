@@ -42,6 +42,14 @@
     display: flex;
   }
 
+  .speaker-social-media-container p {
+    font-size: 1.1rem;
+  }
+
+  .speaker-social-media {
+    padding: 0.5rem 1rem;
+  }
+
   /* footer */
   .information-contacts {
     flex-direction: column;
